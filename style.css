@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+
+h1, h2, h3, h4, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.on-top-bottom {
+    background-color: #59BD5A;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2rem solid #59BD5A;
+    border-radius: 5%;
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+}
+
+.container {
+    max-width: 956px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    box-shadow: 0px 3px 5px #26262629;
+}
+
+.Login-basket {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 119.2px;
+    height: 12.3px;
+}
+
+.login-button {
+    width: 78px;
+    height: 40px;
+    margin-right: 16px;
+    background-color: rgba(0,0,0,0);
+    border-color: #26262629;
+    border-radius: 5%;
+}
+
+.basket-logo {
+    width: 40px;
+    height: 72px;
+}
+
+.serch-section {
+    color: #626262;
+    margin-top: 60px;
+}
+
+.container .serch-section {
+    box-shadow: 0px 1px 0px #26262629;
+}
+
+.title__Moscow-restaurants {
+    margin-top: 56px;
+}
+
+.store-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px; 
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+}
+
+.store {
+    text-decoration: none;
+    color: #1D1D1D;
+    
+}
+
+.store span {
+    padding-top: 5px;
+    font-size: 14px;
+    color: #626262;
+}
+
+h2 {
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+
+.delivery-time {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #262626;
+}
+
+.logo2 {
+    width: 190px;
+    height: 19.6px;
+}
+
+.container-logo2{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    box-shadow: 0px 1px 0px #ffffff;
+}
+
+
+.footer-links {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 55px;
+    box-shadow: 0px 1px 0px #ffffff;
+}
+
+.footer-links-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.footer-links-list-object {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    padding-bottom: 23px;
+}
+
+#social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-hashtag{
+    color: #49A144;
+}
+
+.mobile-app-link {
+    padding-top: 41px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 39px;
+    box-shadow: 0px 1px 0px #ffffff;
+}
+
+.mobile-app-link img {
+    width: 135px;
+    height: 40px;
+}
+
+.GDPR {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.GDPR a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+
+
+
+
+
+/* Pyshkin ) */ /* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) */
+/* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) *//* Pyshkin ) */
+
+.pyshkin__store-title {
+    background-image: url(img/pyshkin.png);
+    background-size: cover;
+    
+}
+
+
+.store-title {
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+
+.ZALYPAEBANAYIA {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pyshkin__inform-block {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #fff;
+    width: 389px;
+    height: 204px; 
+    box-shadow: 5px 5px 5px 5px #26262629;
+}
+
+
+.pyshkin__kitchen-type {
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.pyshkin__inform {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.abobka {
+    background-color: #1D1D1D;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 16px;
+}
+
+.pyshkin__delivery-time {
+    color: #fff;
+}
+
+.nav__menu-border {
+    padding-top: 32px;
+    padding-bottom: 29px;
+
+    box-shadow: 0px 1px 0px #26262629;
+}
+
+.nav__menu a {
+    text-decoration: none;
+    color: #626262;
+    
+}
+
+.nav__menu li {
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.nav__menu li:first-child {
+    padding: 0;
+}
+
+#Zakyski {
+    margin-top: 56px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+
+.menu-position {
+    display: flex;
+    width: 470px;
+    height: 160px;
+    justify-content: space-between;
+    
+    margin-top: 49px;
+    text-decoration: none;
+    border: 1px solid #f0eded;
+}
+
+.menu-position:hover {
+    background-color: #dbd7d7;
+}
+
+.menu-position:nth-child(1), .menu-position:nth-child(2) {
+    margin-top: 32px;
+}
+
+.position-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.position-title span {
+    font-size: 13px;
+    color: #626262;
+}
+
+.position-title h4 {
+    font-size: 16px;
+    color: #1D1D1D;
+    margin-bottom: 4px;
+}
+
+.position-price {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1D1D1D;
+}
+
+.position-img {
+    width: 170px;
+    height: 160px;
+}
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$aboba$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media screen and (max-width: 970px) {
+
+     .menu-position {
+         width: 100%;
+     }
+
+     .store-section {
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+   }
+
+
+
+
+  @media screen and (max-width: 700px) {
+
+    .store-section {
+        grid-template-columns: 1fr;
+    }
+
+
+    .menu-position {
+        width: 100%;
+    }
+    .ZALYPAEBANAYIA {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pyshkin__inform-block {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        justify-content: space-around;
+        width: 90vw;
+        height: 180px; 
+    }
+
+    .pyshkin__inform {
+        flex-direction: column;
+    }
+
+    .abobka {
+        margin-top: 16px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+    .nav__menu-border {
+        display: none;
+    }
+
+    #Zakyski {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+
+    .menu-position {
+    border: none;
+    border-bottom: 2px solid #f0eded;
+    }
+
+    .GDPR {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    }
+
+    .GDPR a {
+        padding-top: 24px;
+    }
+    
+
+   }
+
+
